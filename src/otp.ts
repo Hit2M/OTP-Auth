@@ -12,8 +12,6 @@ export function requestOTP(number: string) {
 } 
 
 export function checkOTP(otpnumber: string) {
-    console.log(encrypt(otpnumber));
-    console.log(decrypt(encrypt(otpnumber)));
     socket.write('checkotp ' + encrypt(otpnumber));
 }
 
