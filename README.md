@@ -10,3 +10,6 @@
 `npx tsc server client utils otp`로 ts->js 변환
 
 `node server`로 서버 ON, `node client`로 서버에 접속
+
+
+ps. 이걸 쓰는 사람이 있을까?
